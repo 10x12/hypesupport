@@ -82,13 +82,12 @@ bot.on("message", function(message) {
         .addField('Invite Link', 'Do **,invite** for the invite link!')
         .addBlankField()
         .addField('Commands', 'Do ,commands To See Them')
-        .addField('Music', 'We have added a music feture so how to use it in ,commands!')
         .setFooter(`Remember to keep in mind that this bot is under heavy dev!`);
       message.author.send(em)
       break;
 
       case "commands":
-      	message.channel.sendMessage("__**Commands**__\n`1.Ping\n2.Help\n3.About\n4.UserInfo\n5.Invite\n6.Play (songlink)\n7.Skip *song*\n8.Stop *music*`")
+      	message.channel.sendMessage("__**Commands**__\n`1.Ping\n2.Help\n3.About\n4.UserInfo\n5.Invite');
       		break;
 
       case "play":
