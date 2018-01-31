@@ -32,7 +32,7 @@ bot.on("message", function(message) {
 				.addField("Invite Link:", ",invite")
 				.addField("This Bot Is Great For:", "Helping Users, Moderatian,\nand Having Fun!!")
 				.setColor("#ff5f00")
-				.setFooter("Remeber to keep in mind that this bot is under heavy dev!")
+				.setFooter("Remember to keep in mind that this bot is under heavy dev!")
 			message.channel.sendEmbed(embed);
 			break;
 		case "userinfo":
@@ -43,7 +43,7 @@ bot.on("message", function(message) {
 				.addField("Username", `${message.author.username}`)
 				.addField("ID", message.author.id)
 				.setThumbnail(message.author.avatarURL)
-				.setFooter("Remeber to keep in mind that this bot is under heavy dev!")
+				.setFooter("Remember to keep in mind that this bot is under heavy dev!")
 			message.channel.sendEmbed(embed);
 			break;
 		case "invite":
@@ -59,7 +59,7 @@ bot.on("message", function(message) {
         .addField('Invite Link', 'Do **,invite** for the invite link!')
         .addBlankField()
         .addField('Commands', 'Do ,commands To See Them')
-        .setFooter(`Remeber to keep in mind that this bot is under heavy dev!`);
+        .setFooter(`Remember to keep in mind that this bot is under heavy dev!`);
       message.author.send(em)
       break;
       case "commands":
