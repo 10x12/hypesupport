@@ -87,7 +87,7 @@ bot.on("message", function(message) {
       break;
 
       case "commands":
-      	message.channel.sendMessage("__**Commands**__\n`1.Ping\n2.Help\n3.About\n4.UserInfo\n5.Invite');
+      	message.channel.sendMessage("__**Commands**__\n`1.Ping\n2.Help\n3.About\n4.UserInfo\n5.Invite");
       		break;
 
       case "play":
